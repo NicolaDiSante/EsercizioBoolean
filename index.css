@@ -1,0 +1,100 @@
+* {
+  color: white;
+}
+
+
+body {
+  background: url(background.jpg);
+  background-size: cover;
+  font-family: 'Open Sans', monospace;
+}
+
+
+div.container {
+  width: 850px;
+  padding: 50px 120px 120px 120px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
+  margin-bottom: 70px;
+  border-radius: 3%;
+}
+
+
+header > img {
+  width: 220px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.titolo {
+  font-size: 25px;
+  color: rgb(0, 205, 0);
+  text-align: center;
+  font-weight: bold;
+}
+
+
+nav {
+  text-align: center;
+  background-color: rgb(0, 220, 0);
+  padding: 10px;
+}
+
+
+nav > button {
+  color: black;
+}
+
+
+.nome.veicolo {
+  font-size: 17px;
+}
+
+
+.arrow:before {
+  content: "\21A6";
+}
+
+
+.address , .batteria {
+  font-size: 14px;
+}
+
+
+.rectangle {
+  height: 25px;
+  border-radius: 7%;
+}
+
+
+div.roundcorners {
+  height: 23px;
+  border-radius: 5px;
+  border: 2px solid
+
+}
+
+
+.roundcorners.first {
+  border: rgb(240,170,70);
+  background-color: rgb(240,170,70);
+  width: 300px;
+}
+
+
+.roundcorners.second {
+  border: rgb(0,240,0);
+  background-color: rgb(100,240,50);
+  width: 500px;
+}
+
+
+.roundcorners.third {
+  border: rgb(200,0,50);
+  background-color: rgb(250,50,50);
+  width: 125px;
+}
